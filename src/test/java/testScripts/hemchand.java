@@ -16,15 +16,8 @@ public class LoginTests {
 	
 	@Test
 	public void verifyLogin(){
-
-				lg.login("Abuthaheer123", "PE64C9");
-
-
+		lg.login("Abuthaheer456", "PE64C9");
 		lg.login("Abuthaheer123", "PE64C9");
-		lg.login("Abuthaheer", "PE64C9");
-		lg.login("Abuthaheer", "PE64C9");
-		lg.login("Abuthaheer123", "PE64C9");
-
 		Assert.assertTrue(lg.getTitlte().contains("Search"), 
 				"Failed: Login not successfull");
 	}
