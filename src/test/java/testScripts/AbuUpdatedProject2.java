@@ -22,6 +22,7 @@ public class LoginTests {
 
 		lg.login("Abuthaheer123", "PE4C9");
 		lg.login("Abuthaheer567", "PE64C9");
+		lg.login("Abuthaheer123", "PE64C9");
 		lg.login("Abuthaheer", "PE64C9");
 		lg.login("Abuthaheer123", "PE64C9");
 
